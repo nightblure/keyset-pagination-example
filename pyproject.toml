@@ -1,0 +1,15 @@
+[project]
+name = "keyset-pagination-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deps-injection>=1.6.2",
+    "faker>=33.1.0",
+    "fastapi>=0.115.6",
+    "psycopg2>=2.9.10",
+    "sqlalchemy>=2.0.36",
+    "testcontainers>=4.9.0",
+    "uvicorn>=0.34.0",
+]
